@@ -1,0 +1,13 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+body {
+	background-image: url('http://localhost:3000/images/suns-rays.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
