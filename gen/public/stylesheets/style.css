@@ -1,7 +1,8 @@
 body {
   padding: 50px;
 
-  font-family: 'Cousine', ;
+  font-family: 'Droid Sans Mono';
+  color: black;
 }
 
 a {
@@ -20,8 +21,47 @@ body {
 .nav-button {
 	background-color: #9933CC;
 	border: none;
+	font-size: 1.5em;
+	padding: 8px 30px;
+	margin-bottom: 20px;
+	color: black;
 }
 .nav.navbar {
-	float: right;
+	position: fixed;
+	right: 25px;
+	top: 35%;
 
+}
+li, a{
+	list-style: none;
+	color: black;
+	text-decoration: none;
+}
+li:hover, a:hover {
+	list-style: none;
+	text-decoration: none;
+}
+.social_media {
+	float: right;
+	margin-bottom: 10px;
+	display: inline-block;
+	padding: 10px 5px;
+
+}
+.fa {
+	color: white;
+}
+.btn {
+	background-color: blue;
+	border-radius: 35px;
+}
+.glyphicon-menu-down {
+
+	color: white;
+	font-size: 3em;
+}
+.span_div {
+	position: absolute;
+	bottom: 25px;
+	right: 50%;
 }
