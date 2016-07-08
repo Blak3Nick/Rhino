@@ -1,6 +1,7 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+  font-family: 'Cousine', ;
 }
 
 a {
@@ -10,4 +11,17 @@ body {
 	background-image: url('http://localhost:3000/images/suns-rays.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.rhino_logo {
+	float: left;
+	width: 50%;
+	height: 50%;
+}
+.nav-button {
+	background-color: #9933CC;
+	border: none;
+}
+.nav.navbar {
+	float: right;
+
 }

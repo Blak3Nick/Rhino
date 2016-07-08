@@ -1,5 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	body
+		div.rhino_logo
+			img.rhino_logo.pic(src='http://localhost:3000/images/Rhino-Design-Logo.png')#background_img
+		div.nav.navbar
+			li.nav-bar
+				button.nav-button
+					a(href='#') Projects
+			li
+				button.nav-button
+					a(href='#') Who We Are
+			li
+				button.nav-button
+					a(href='#') Contact
+
